@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Color-Fliper</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <style>
+            body{
+                text-align: center;
+                background-color: chartreuse;
+            }
+            button{
+                height: 50px;
+                width: 200px;
+                margin-top: 300px;
+            }
+        </style>
+    
+    </head>
+    <body>
+    
+        <button onclick = "Flip_color()">  Click for color change </button>
+          
+        <script> 
+            var str = "Click on button to change the background color";
+          
+            function changeColor(color) {
+                document.body.style.background = color;
+            }   
+                function Flip_color() {
+                changeColor('red');
+            }         
+        </script> 
+    </body>
+</html>
